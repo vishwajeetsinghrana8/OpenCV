@@ -14,7 +14,7 @@ cells = [np.hsplit(row,100) for row in np.vsplit(gray,50)]
 
 #convert list data type to numpy array of shape (50,100,20,20)
 x = np.array(cells)
-print("The shape of our cells array"+str(x.shape))
+print("The shape of our cells array {}".format(str(x.shape)))
 
 #Split the full dataset into two segments
 train = x[:,:70].reshape(-1,400).astype(np.float32) #size = 3500x400
