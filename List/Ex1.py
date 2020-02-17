@@ -1,4 +1,5 @@
 #Same type of data
+#Solution of excercise1
 print([1, 2, 3])
 
 print(['cat', 'bat', 'rat', 'elephant'])
